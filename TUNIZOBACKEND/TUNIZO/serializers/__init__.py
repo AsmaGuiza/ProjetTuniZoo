@@ -1,0 +1,8 @@
+from .EspeceSerializer import EspeceSerializer
+from .AdoptionSerializer import AdoptionSerializer
+from .DonationSerializer import DonationSerializer
+from .MessageSerializer import MessageSerializer
+from .CommentaireSerializer import CommentaireSerializer
+from .TuniZooUserSerializer import TuniZooUserSerializer
+from .PublicationSerializer import PublicationSerializer
+
