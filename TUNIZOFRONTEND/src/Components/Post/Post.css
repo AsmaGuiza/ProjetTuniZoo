@@ -1,0 +1,16 @@
+.Hooo{
+    display: flex;
+    justify-content: end;
+    padding: 0;
+}
+.hiiii{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.hiii{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap :10px;
+    }

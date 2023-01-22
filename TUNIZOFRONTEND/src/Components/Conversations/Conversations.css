@@ -1,0 +1,77 @@
+.ConversationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.BoxSender{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: end;
+}
+.Chatting{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.Bulle {
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+	align-self: flex-end;
+	position: relative;
+    padding: 10px 10px;
+	max-width: 45%;
+	border-radius: 2px;
+	margin: 10px 10px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.Bulle::after {
+	content: '';
+	position: absolute;
+	bottom: -7px;
+	right: 10px;
+	width: 0;
+	border-width: 7px 0 0 10px;
+	border-style: solid;
+	border-color: #1e1e1e transparent;
+}
+.BulleRe{
+    background-color: #d9fdd3;
+	align-self: flex-start;
+    padding: 10px 10px;
+	max-width: 45%;
+	border-radius: 2px;
+	margin: 10px 10px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+    color: rgb(0, 0, 0);
+    display: flex;
+
+}
+.BulleRe:after {
+	content: '';
+	position: absolute;
+	top: -7px;
+	left: 10px;
+	width: 0;
+	border-width: 0 10px 7px 0;
+	border-style: solid;
+	border-color: #000000 transparent;
+}
+.RecContainer{
+    display: flex;
+    justify-content: end;
+}
+.SendContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+.Envoyer{
+	
+}

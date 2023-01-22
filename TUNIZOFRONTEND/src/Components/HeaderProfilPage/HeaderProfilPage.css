@@ -1,0 +1,44 @@
+.HeaderProfilPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.ProfilDetailsContainner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30%;
+    gap: 30%;
+}
+.Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Ecriture{
+    text-align: justify;
+    white-space: nowrap;
+    font-family: Gill Sans Extrabold, sans-serif;
+
+}
+.Pubs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    flex-wrap: wrap;
+    border-top: 0.5px solid ;
+    height: 70%;
+    border-color:rgba(158, 156, 156, 0.858) ;
+}
+.ProfilContainer{
+    display: flex;
+    flex-direction:row;
+    height: 100vh;
+    width: 100%;}
+.TestNav{
+    width: 30%;
+    border-right: 0.5px solid black;
+    }

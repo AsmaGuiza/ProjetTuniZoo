@@ -1,0 +1,74 @@
+.thePostContainner{
+    width : 100% ;
+    display : flex ;
+    opacity: 0.6;
+    cursor:pointer;
+    border-radius: 8px;
+    padding : 0 10px ;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    padding:  0 10px;
+    text-align: center;
+    }
+    .TheMsgContainer{
+        width: 80%;
+        border-radius: 8px;
+        height: 30%;
+
+    }
+    .ThePost{
+        padding : 0 10px ;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        resize: none;
+        border-radius: 8px;
+
+    }
+    .buttonPost{
+        display: inline-block;
+        font-family: "Nexa-Heavy","Nexa-Bold",arial,helvetica,sans-serif;
+        font-size: 14px;
+        color: #00060a;
+        height: 24px;
+        width: 100px;
+        border:1px  solid rgb(180, 172, 172);
+        border-radius: 15px;
+        background-color: #bededf;
+        opacity: 0.6;
+        cursor:pointer;
+        transition: 0.3s;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .postandimg{
+        display : flex ;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        justify-items: center;
+        
+    }
+    .imgIcon{
+        margin-top:5px;
+        font-size:2em;
+        
+     }    
+.iconPost{
+    display: inline-block;
+    font-family: "Nexa-Heavy","Nexa-Bold",arial,helvetica,sans-serif;
+    font-size: 14px;
+    color: #00060a;
+    height: 24px;
+    width: 257px;
+    border:1px  solid rgb(180, 172, 172);
+    border-radius: 15px;
+    background-color: #a8cccdc6;
+    opacity: 0.6;
+    cursor:pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}

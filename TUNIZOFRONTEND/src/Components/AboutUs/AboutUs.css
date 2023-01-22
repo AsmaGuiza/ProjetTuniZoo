@@ -1,0 +1,25 @@
+
+.diposMultimedia{
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.Hi{
+    padding: 40px 40px;
+}
+.AboutUsDescription{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    opacity: 0.9;
+    cursor:pointer;
+    transition: 0.3s;
+    font-family: cursive;
+
+
+
+}

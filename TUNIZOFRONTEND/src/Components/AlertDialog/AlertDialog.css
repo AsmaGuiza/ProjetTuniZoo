@@ -1,0 +1,25 @@
+.PaymentType{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+}
+.PaymentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+}
+.hello{
+    display: flex;
+    flex-direction: column;
+    gap : 10px ;
+}
+.hii{
+    border: 1px solid #6c6b6b;
+    border-radius: 25px;
+}
+.HOO{
+    background-color: #b4a466;
+}

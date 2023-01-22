@@ -1,0 +1,19 @@
+.Position{
+font-family: Brush Script MT;
+font-size: 25px;
+border-bottom: 0.5px solid rgba(158, 156, 156, 0.858);
+display : flex ; 
+flex-direction: row;
+align-items: center ;
+justify-content: space-between ;
+flex-wrap:wrap ;
+opacity: 0.6;
+cursor:pointer;
+width : 35vw ;
+background-color:rgba(240,242,245,255);
+height: 50px;
+color: black;
+
+
+}
+

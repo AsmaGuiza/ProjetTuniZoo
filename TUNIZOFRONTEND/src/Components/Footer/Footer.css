@@ -1,0 +1,13 @@
+.FooterContainner{
+background-color: #fad8c3;
+height: 100%;
+width: 100%;
+text-align: center;
+gap: 200px;
+display: flex;
+align-items: center;
+flex-direction: row;}
+.logoo0{
+width: 300px;
+height: 300px;
+margin-top: 20px;}

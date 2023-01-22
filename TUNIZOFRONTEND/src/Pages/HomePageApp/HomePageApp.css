@@ -1,0 +1,8 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgba(255,250,247,255);
+    gap:100px;
+
+}

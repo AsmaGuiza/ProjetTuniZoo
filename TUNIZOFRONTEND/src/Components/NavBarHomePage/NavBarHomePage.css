@@ -1,0 +1,71 @@
+.ulHomeNav{
+    list-style-type: none;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.ilHomeNav{
+    display: inline ; 
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding:0px 15px;
+    text-decoration: none;
+    opacity: 0.6;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.headerflex{
+    display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+  
+  }
+  .TextTitleHomeNav {
+    font-style: italic;
+    font-family: cursive;
+    font-size: x-large ;
+    text-decoration: none;
+    margin-left:30px;
+    color: rgb(15, 31, 53);
+    opacity: 0.6;
+    cursor:pointer;
+    transition: 0.3s;
+    font-family: Amatic SC;
+
+ 
+  }
+  .li:hover{
+    opacity:1;
+    }
+.headerleft{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+.headerright{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .NavBarH{
+        background-color: #f9f3f3;
+    }
+.navv{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: medium;
+    text-decoration: none;
+    color:black; 
+
+}
+
+ 
